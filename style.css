@@ -10,6 +10,14 @@ header{
     padding: 20px;
     text-align: center;
 }
+header img{
+    width: 150px;
+    height: 200px;
+    border-radius: 50%;
+    float: left;
+    display: block;
+    margin: 0 auto 10px;
+}
 section{
     padding: 20px;
     margin: 10px;
