@@ -1,12 +1,12 @@
 
 .sidebar {
   position: fixed;
-  top: 0;
+  top: 70;
   left: 0;
   width: 0;
   height: 100%;
   background-color: none;
-  overflow-x: hidden;
+    overflow-x: hidden;
   transition: 0.3s;
   padding-top: 60px;
 }
@@ -14,12 +14,14 @@
 .sidebar a {
   display: block;
   padding: 10px 10px;
-  color: #ddd;
+  color: black;
   text-decoration: none;
+  font-size: 18px;
+  font-weight: bold;
 }
 
 .sidebar a:hover {
-  background-color: #575757;
+  background: linear-gradient(-45deg, #7373ac, #2c2c3f, #3a3a4f, #1e1e2f);
   color: #fff;
 }
 
