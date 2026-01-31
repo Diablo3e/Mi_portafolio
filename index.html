@@ -1,49 +1,24 @@
 <html>
-    <head>
-        <meta charset ="UTF-8">
-        <title>Alan D Guerrero Bautista | Portafolio</title> 
-        <link rel="stylesheet" href="style.css">
-    </head>
-    <body>
-        <header>
-            <img src="image/alan_formal.jpg" alt="">
-            <h1>Alan</h1>
-            <p>Estudiante de ingenieria en Sistemas (7° cuatrimestre)</p>
-        </header>
-        <br>
 
-        <br>
-        <section id= "habilidades"> 
-            <h2>Habilidades Técnicas</h2>
-            <ul>
-                <li>Python básico</li>
-                <li>HTML y CSS</li>
-                <li>Java con NetBeans</li>
-                <li>MySQL</li>
-            </ul>
-        </section>
-         <section id="intereses">
-            <h2>Intereses</h2>
-            <p>Automatización, OCR, desarrollo web, optimización de procesos.</p>
-        </section>    
-        <section id="contacto">
-            <h2>Contacto</h2>
-            <form action="https://formspree.io/f/manpnqvb" method="post">
-                <input type="text" name= "nombre" placeholder="tu nombre" required>
-                <input type="email" name= "correo" placeholder="Tu correo" required>
-                <textarea name="mensaje" placeholder="Tu mensaje"required></textarea>
-                <button type="submit">Enviar</button>
+<head>
+    <meta charset="UTF-8">
+    <title>Alan D Guerrero Bautista | Portafolio</title>
+    <link rel="stylesheet" href="styles/style_menu.css">
+</head>
+<div class="animated-bg"></div>
 
-            </form>
-        </section>
-        <section id="proyectos">
-            <h2>Proyectos</h2>
-            <ul>
-                <li><a href="https://diablo3e.github.io/CECyTE_PRUEBA/" target="_blank">proyecto cecyte</a></li>
-            </ul>
-        </section>
-        <footer>
-            <p>© 2026 Hpro</p>
-        </footer>
-    </body>
+<body>
+  <button class="menu-btn" onclick="toggleMenu()">☰</button>
+  <div id="mySidebar" class="sidebar">
+    <a href="perfil.html">Perfil</a>
+    <a href="proyectos.html">Proyectos</a>
+    <a href="contacto.html">Contacto</a>
+  </div>
+
+ <script src="https://cdn.jsdelivr.net/npm/tsparticles@2.11.1/tsparticles.bundle.min.js"></script>
+<div id="tsparticles"></div>
+
+</body>
+<script src="scripts/menu_script.js"></script>
+
 </html>
