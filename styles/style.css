@@ -1,17 +1,19 @@
 body {
     font-family: Arial, sans-serif;
+
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
+    background: linear-gradient(-45deg, #1e1e2f, #2c2c3f, #3a3a4f, #1e1e2f);
 }
 
 header {
-    background: linear-gradient(-45deg, #1e1e2f, #2c2c3f, #3a3a4f, #1e1e2f);
     color: white;
+    font-size: 30px;
+    font-weight: bold;
     padding: 20px;
     text-align: center;
 }
-
+/**
 header img {
     width: 150px;
     height: 210px;
@@ -20,16 +22,18 @@ header img {
     display: block;
     margin: 0 auto 10px;
 }
-
+**/
 section {
     padding: 20px;
     margin: 10px;
-    background-color: white;
+    background-color: node;
     border-radius: 8px;
 }
 
 h2 {
-    color: #333;
+    color: #6b0c47;
+    font-size: 26px;
+    font-weight: bold;
 }
 
 form,
@@ -53,6 +57,5 @@ footer {
     text-align: center;
     padding: 10px;
 
-    background-color: #ddd;
 
 }

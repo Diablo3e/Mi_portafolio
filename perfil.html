@@ -6,6 +6,7 @@
     <link rel="stylesheet" href="/styles/style.css">
     <link rel="stylesheet" href="styles/style_menu.css">
 </head>
+<div class="animated-bg"></div>
 
 <body>
     <button class="menu-btn" onclick="toggleMenu()">☰</button>
@@ -14,39 +15,47 @@
         <a href="perfil.html">Perfil</a>
         <a href="proyectos.html">Proyectos</a>
         <a href="contacto.html">Contacto</a>
-       
+
+    </div>
+    <div id="mainContent" class="content">
+        <header>
+            <h1>Alan</h1>
+            <p>Estudiante de ingenieria en Sistemas (7° cuatrimestre)</p>
+        </header>
+        <br>
+
+        <br>
+        <section id="habilidades">
+            <h2>Conocimiento</h2>
+            <ul>
+                <li>Python</li>
+                <li>HTML y CSS</li>
+                <li>Java con NetBeans y JavaScript </li>
+                <li>MySQL</li>
+                <li>Git y GitHub</li>
+
+            </ul>
+        </section>
+
+        <section id="intereses">
+            <h2>Intereses</h2>
+            <p>Automatización, OCR, desarrollo web, optimización de procesos.</p>
+        </section>
+
+        <section>
+            <h2>Descargar CV</h2>
+            <a href="Proyectos_IMG_MP3/CV Alan_DGB_Inge_System.docx" download>Descargar CV en PDF</a>
+        </section>
+
+        <footer>
+            <p>© 2026 Hpro</p>
+        </footer>
     </div>
 
-    <div class="sidebar"> <a href="perfil.html">Perfil</a> <a href="proyectos.html">Proyectos</a> <a
-            href="contacto.html">Contacto</a>
-    </div>
-    <header>
-        <h1>Alan</h1>
-        <p>Estudiante de ingenieria en Sistemas (7° cuatrimestre)</p>
-    </header>
-    <br>
-
-    <br>
-    <section id="habilidades">
-        <h2>Habilidades Técnicas</h2>
-        <ul>
-            <li>Python básico</li>
-            <li>HTML y CSS</li>
-            <li>Java con NetBeans</li>
-            <li>MySQL</li>
-        </ul>
-    </section>
-    <section id="intereses">
-        <h2>Intereses</h2>
-        <p>Automatización, OCR, desarrollo web, optimización de procesos.</p>
-    </section>
-    <section>
-        <h2>Descargar CV</h2>
-        <a href="Proyectos_IMG_MP3/CV Alan_DGB_Inge_System.docx" download>Descargar CV en PDF</a>
-    </section>
-    <footer>
-        <p>© 2026 Hpro</p>
-    </footer>
+    // burbujitas de fondo
+    <script src="https://cdn.jsdelivr.net/npm/tsparticles@2.11.1/tsparticles.bundle.min.js"></script>
+    <div id="tsparticles"></div>
+    // accion de las burbujitas y el button del menu
     <script src="scripts/menu_script.js"></script>
 
 </body>
